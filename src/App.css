@@ -1,23 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   display: flex;
 }
-
 button {
   margin: 5px;
   padding: 5px 15px 5px 15px;
-  background-color: blue;
+  background-color: rgb(0, 0, 0);
   color: white;
   border: 1px solid black;
   border-radius: 15px;
 }
-
 .count-area {
-  margin: 10px;
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 2px solid black;
-  padding: 10px;
-  width: 500px;;
-  background-color: rgb(185, 169, 169);
+  padding: 1rem;
+  max-width: 500px;;
+  background-color: hsl(0, 6%, 90%);
+}
+
+.wrapper {
+  order: 1;
+}
+.text-area {
+  order: 2;
+  margin: 2rem;
+}
+
+@media(max-width: 768px){
+  .App {
+    flex-direction: column;
+    width: 100%;
+  }
+  .text-area {
+    order: 1;
+  }
+  .text-area textarea {
+    padding: 1rem;
+    width: 100%;
+  }
+  .wrapper {
+    order: 2;
+    width: auto;
+  }
 }
