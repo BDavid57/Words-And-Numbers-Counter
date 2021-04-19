@@ -3,7 +3,7 @@ const SumOfAllNumbers = (props) => {
     const addNumbers = () => {
         const arrOfText = props.myText.split(' ')
         const myArr = []
-        arrOfText.filter(el => isNaN(el) !== true).forEach(item => myArr.push(parseInt(item)))
+        arrOfText.filter(el => !isNaN(el)).forEach(item => myArr.push(parseInt(item)))
         const result = myArr.reduce((acc, val) => acc + val)
         props.updateMySum(result)
     }
