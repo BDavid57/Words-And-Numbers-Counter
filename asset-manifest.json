@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Words-And-Numbers-Counter/static/css/main.76b429d3.chunk.css",
+    "main.js": "/Words-And-Numbers-Counter/static/js/main.e82f1b17.chunk.js",
+    "main.js.map": "/Words-And-Numbers-Counter/static/js/main.e82f1b17.chunk.js.map",
+    "runtime-main.js": "/Words-And-Numbers-Counter/static/js/runtime-main.3783dca5.js",
+    "runtime-main.js.map": "/Words-And-Numbers-Counter/static/js/runtime-main.3783dca5.js.map",
+    "static/js/2.56ea3ec6.chunk.js": "/Words-And-Numbers-Counter/static/js/2.56ea3ec6.chunk.js",
+    "static/js/2.56ea3ec6.chunk.js.map": "/Words-And-Numbers-Counter/static/js/2.56ea3ec6.chunk.js.map",
+    "index.html": "/Words-And-Numbers-Counter/index.html",
+    "static/css/main.76b429d3.chunk.css.map": "/Words-And-Numbers-Counter/static/css/main.76b429d3.chunk.css.map",
+    "static/js/2.56ea3ec6.chunk.js.LICENSE.txt": "/Words-And-Numbers-Counter/static/js/2.56ea3ec6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3783dca5.js",
+    "static/js/2.56ea3ec6.chunk.js",
+    "static/css/main.76b429d3.chunk.css",
+    "static/js/main.e82f1b17.chunk.js"
+  ]
+}
